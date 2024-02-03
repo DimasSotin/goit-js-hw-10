@@ -12,7 +12,7 @@ const timerRefs = {
   minutes: document.querySelector('[data-minutes]'),
   seconds: document.querySelector('[data-seconds]'),
 };
-// =================================================================
+// =========================================================
 let userSelectedDate = null;
 startBtn.setAttribute('disabled', 'true');
 
