@@ -1,4 +1,4 @@
-/**
+/* 
   |============================
   | include css partials with
   | default @import url()
@@ -110,4 +110,58 @@ button[data-start]:hover {
   line-height: 1.5;
   color: #2e2f42;
   text-transform: uppercase;
+}
+
+.form {
+  width: 360px;
+  margin: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+input[type='number'] {
+  margin-top: 8px;
+  width: 342px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 16px 8px;
+}
+input[type='number']:hover {
+  border: 1px solid #000;
+}
+
+.form fieldset {
+  border: 1px solid #808080;
+  margin-top: 30px;
+  border-radius: 4px;
+  width: 334px;
+}
+.form fieldset:hover {
+  border: 1px solid #000;
+}
+.form fieldset input {
+  margin-left: 40px;
+}
+
+.form button {
+  margin-top: 24px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background: #4e75ff;
+  border: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.form button:hover {
+  background: #6c8cff;
 }
